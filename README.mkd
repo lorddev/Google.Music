@@ -1,6 +1,6 @@
-# Google.Music Desktop Application (Client) &amp; API for .NET
+# Google.Music Desktop Client and API for .NET
 
-An Unofficial Google Play Music API engineered from:
+Unofficial Google Play Music API engineered from:
 
 - The Google Play Music Android App (GoogleMusicApi.Common.MobileClient)
 - The music.google.com website (GoogleMusicApi.Common.WebClient)
@@ -47,7 +47,7 @@ This repository contains a Desktop Application (**not completed / functional**) 
 
 # Contributing 
 
-Any Contribution is greatly appreciated and will be fully documented and credited. If you wish to contribute to this project, please fork this repository and submit pull requests, and after review, they will be merged as soon as I am able. 
+Any contributions are greatly appreciated and will be fully credited. If you wish to contribute to this project, please fork this repository and submit pull requests, and after review, they will be merged as soon as I am able. 
 *Frequent contributors are also welcome to get in touch and ask to be added directly to the central repository.*
 
 If you don't know what to do, there is a massive list of `TODO (<Priority>): ` comments; bug fixing and testing is always greatly appreciated.
