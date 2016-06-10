@@ -1,9 +1,9 @@
-# Google.Music Desktop Application (Client) & API Written in C Sharp
+# Google.Music Desktop Application (Client) &amp; API for .NET
 
-An Unofficial Google Play Music API Engineered from:
+An Unofficial Google Play Music API engineered from:
 
-	- The Google Play Music Android App (GoogleMusicApi.Common.MobileClient)
-	- The music.google.com/ website (TODO: GoogleMusicApi.Common.WebClient)
+- The Google Play Music Android App (GoogleMusicApi.Common.MobileClient)
+- The music.google.com website (GoogleMusicApi.Common.WebClient)
 
 ## API [GoogleMusicApi](GoogleMusicApi/) 
 ### Common [GoogleMusicApi.Common](GoogleMusicApi.Common/) 
@@ -29,36 +29,32 @@ if (client.Login("email", "password"))
 The core API contains the ability to construct custom requests (if a request is missing please post an issue). 
 This project is for advanced requests that are not supported by the Common API, and using this manually is not recommended unless you have an understanding of TCP HTTPs requests.
 
-Full documentation can be found [here](http://coman3.github.io/Google.Music/Docs/) or within the inbuilt documentation.
-
-
+Full documentation can be found [here](http://coman3.github.io/Google.Music/Docs/) or within the inline documentation.
 
 
 ## Desktop Application [GooglePlayMusic](GooglePlayMusic/) 
 This repository contains a Desktop Application (**not completed / functional**) [GooglePlayMusic](GooglePlayMusic/) that acts under a `GoogleMusicApi.Common.MobileClient`.
 
-Features **will** include:
+### Project Roadmap
 
-	- Select Streaming Quality (Low, Medium, High)
-	- Cache Commonly played songs
-	- Set Buffer Length (how much of the stream to keep in memory while playing a track)
-	- Download Tracks (Possible that this will not be implemented due to Googles Terms of Use)
-	- Seamless playback 
-		- Play tracks on many local area network devices at the same time (For multiple speakers throughout house)
-		- Continue playback from phone (will need android app installed)
+- Select Streaming Quality (Low, Medium, High)
+- Cache Commonly played songs
+- Set Buffer Length (how much of the stream to keep in memory while playing a track)
+- Download Tracks (Possible that this will not be implemented due to Googles Terms of Use)
+- Seamless playback 
+	- Play tracks on many local area network devices at the same time (For multiple speakers throughout house)
+	- Continue playback from phone (will need android app installed)
 
 # Contributing 
 
-Any Contribution is greatly appreciated and will fully documented and credited. If you wish to contribute to this project,
-please fork this repository and submit pull requests, then i shall merge them as soon i get the chance. 
-*Any constant developers are also welcome to get in touch and ask to be added to the repository.*
+Any Contribution is greatly appreciated and will be fully documented and credited. If you wish to contribute to this project, please fork this repository and submit pull requests, and after review, they will be merged as soon as I am able. 
+*Frequent contributors are also welcome to get in touch and ask to be added directly to the central repository.*
 
-
-If you don't know what to do, there is a massive list of "TODO (<Priority>): " lines, specifying what needs to be done, plus bug testing is always greatly appreciated.
+If you don't know what to do, there is a massive list of `TODO (<Priority>): ` comments; bug fixing and testing is always greatly appreciated.
 
 Thanks for your help in advance :)
 
 # Get In Touch
 
 If you have any questions don't hesitate to message me on [Discord](https://discord.gg/012WlrsiVIhOjHvEx) or email me [dev.lvelden@gmail.com](mailto:dev.lvelden@gmail.com). 
-also leaving and issue with the tag "Question" works :P
+Also leaving an issue with the tag "Question" works :P
